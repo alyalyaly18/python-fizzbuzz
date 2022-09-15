@@ -7,6 +7,7 @@ def fizzbuzz(number):
             answer.append("Fizz")
         elif current_number % 5 == 0:
             answer.append("Buzz")
+            print("Buzz")
         elif current_number % 3 == 0 and current_number % 5 == 0:
             answer.append("FizzBuzz")
         else:
